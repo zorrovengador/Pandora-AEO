@@ -21,7 +21,7 @@ def main(argv: list[str] | None = None) -> int:
     command = [hermes, "profile", "create", args.profile, "--description", "Audita sitios web, mide AEO y genera assets con evidencia."]
     if args.dry_run:
         print(" ".join(command))
-        print(f"Copy {skill} into the new profile's skills directory after creation.")
+        print(f"Would install {skill} into the new profile's skills directory after creation.")
         return 0
     subprocess.run(command, check=True)
     config_path = subprocess.check_output([hermes, "-p", args.profile, "config", "path"], text=True).strip()
