@@ -17,11 +17,11 @@ python scripts/bootstrap_hermes_profile.py --profile aeo-lab
 hermes -p aeo-lab doctor
 ```
 
-El helper no copia memoria, sesiones, `state.db`, cron ni credenciales desde otro profile.
+El helper crea el profile y copia automáticamente la skill a su directorio de skills. No copia memoria, sesiones, `state.db`, cron ni credenciales desde otro profile.
 
-## 2. Instalar la skill
+## 2. Verificar la skill
 
-Copia `optional-skills/aeo-audit/SKILL.md` (y este repositorio si se usará el motor local) al workspace o directorio de skills del profile. Revisa el archivo antes de habilitarlo.
+Confirma que `aeo-audit/SKILL.md` quedó en el directorio de skills del profile y revisa el archivo antes de habilitar integraciones.
 
 ## 3. Ejecutar una prueba no-write
 

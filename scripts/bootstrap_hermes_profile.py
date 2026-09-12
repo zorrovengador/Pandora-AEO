@@ -24,8 +24,14 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Copy {skill} into the new profile's skills directory after creation.")
         return 0
     subprocess.run(command, check=True)
+    config_path = subprocess.check_output([hermes, "-p", args.profile, "config", "path"], text=True).strip()
+    profile_home = Path(config_path).parent
+    destination = profile_home / "skills" / "aeo-audit"
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copytree(skill, destination)
     print(f"Profile created: {args.profile}")
-    print("Next: copy optional-skills/aeo-audit into the profile skill directory, then run hermes doctor.")
+    print(f"Skill installed: {destination / 'SKILL.md'}")
+    print("Next: run hermes doctor, configure the model, and verify a no-write audit.")
     return 0
 
 
