@@ -1,7 +1,7 @@
 ---
 name: aeo-audit
 description: Audit websites for AEO, Agent Readiness, LLM-friendly content, and SEO technical issues. 8-category scoring with impact/effort per check.
-version: 0.3.0
+version: 0.4.0
 author: Manuel Hernández (zorrovengador), Hermes Agent
 license: MIT
 platforms: [linux, macos, windows]
@@ -84,8 +84,11 @@ Don't use for private-network targets, production changes, or unsupported claims
 
 ## Prerequisites
 
-- Python 3.10+, no external dependencies.
+- Python 3.10+; stdlib only for auditing and HTML report generation.
+- For the DOCX deliverable: `python-docx` (or the Hermes `docx` skill).
 - The repository directory available in the active workspace.
+- This skill is self-contained: the report design system ships inside it
+  (`references/`), no other design skills required.
 
 ## Report Workflow (MANDATORY — execute ALL steps in order)
 
@@ -99,18 +102,17 @@ When generating an audit report from a JSON run record, this workflow is non-neg
 - `python -m pandora_aeo.cli <url> --crawl --max-pages 2000 --output artifacts/<site>.json` (full crawl, not a sample — the user rejected a 30-page sample; always exhaust link discovery or cover the full sitemap).
 
 ### Step 2 — Define the visual system BEFORE writing anything
-- Load `popular-web-designs` (template: `templates/stripe.md` — Stripe tokens: purple `#533afd`, navy `#061b31`, weight 300, blue-tinted shadows) and `claude-design` for design process/QA discipline.
-- Optionally consult `pandora-professional-presentations` workflow: visual system first, QA render before delivery.
+- Read `references/report-design.md` (bundled with this skill) — Stripe design tokens, chart patterns, and report structure are all in there. No external design skills required.
+- For deeper styling, consult `references/stripe-tokens.md`; for the target quality bar, open `references/example-report.html`.
 
 ### Step 3 — Build the HTML report (self-contained, interactive)
-- Load `claude-design` for authoring guidance; apply Stripe tokens from Step 2.
-- Embed hand-built SVG/CSS charts: global-score donut, category-score bars, page-score heatmap/table, findings cards sorted by impact/effort, Agent Readiness status grid.
+- Follow `references/report-design.md` §"Required report sections" and §"Chart patterns": global-score donut, category bars, histogram, findings cards sorted by impact/effort, Agent Readiness dark grid.
 - All CSS/SVG inline; Google Fonts via `<link>`; opens offline in any browser.
-- QA: render and visually verify before delivery (screenshot or browser check).
+- QA: render and visually verify before delivery (screenshot or browser check) — checklist in `references/report-design.md` §QA.
 
 ### Step 4 — Build the DOCX report (same data, same conventions)
-- Load `docx` skill. Charts go in as embedded SVG-rendered images (convert the Step 3 SVGs to PNG if python-docx can't take SVG); tables are allowed ONLY for page-level detail, never as the sole data presentation.
-- Match the Stripe color palette in charts and heading styles.
+- Use the Hermes `docx` skill (or python-docx directly) for the container; charts as PNG screenshots of the HTML's chart regions (CDP clip capture, scale 2).
+- Tables allowed ONLY for page-level detail, never as the sole data presentation. Match the Stripe palette. Details: `references/report-design.md` §DOCX.
 
 ### Step 5 — REGLA DURA (hard rule)
 - NEVER include comparisons with AEO Bizbrain, isitagentready.com, or ANY external system in any deliverable (HTML, DOCX, JSON, PDF, PPTX). Only facts measured by Pandora-AEO: category scores, pages, impact/effort findings, Agent Readiness, action plan.
@@ -121,6 +123,114 @@ When generating an audit report from a JSON run record, this workflow is non-neg
 
 ### Step 7 — Post-report
 - Record any new convention or pitfall learned into this skill so it loads next time.
+
+## Report design system (bundled — no external skills needed)
+
+The workflow steps above already carry the hard rules (REGLA DURA, full crawl,
+string escaping, QA render, delivery). This section is the technical reference
+those steps point into.
+
+## Stripe design tokens (use exactly)
+
+| Token | Value |
+|---|---|
+| Accent / links / CTA | `#533afd` (hover `#4434d4`) |
+| Headings | `#061b31` (deep navy — never `#000`) |
+| Body text | `#64748d` |
+| Labels | `#273951` |
+| Borders | `#e5edf5`, row hover bg `#fafbff` |
+| Dark section bg | `#1c1e54`, white text, card borders `rgba(255,255,255,.14)` |
+| Success | `#15be53` (badge bg `rgba(21,190,83,.15)`, text `#108c3d`) |
+| Warning | `#9b6829` |
+| Danger | `#ea2261` |
+| Signature shadow | `rgba(50,50,93,.25) 0 30px 45px -30px, rgba(0,0,0,.1) 0 18px 36px -18px` |
+| Radius | 4–6px (buttons/badges/cards); never pills |
+| Font | `Source Sans 3` (Google Fonts), weight **300** for headings/body, 600 for emphasis, `font-feature-settings:"ss01"`; numerals `"tnum"` |
+| Mono | `Source Code Pro` 400/500 for URLs, check IDs, evidence |
+| Headline scale | h1 48px /-.96px; h2 32px /-.64px; h3 22px /-.22px (all weight 300) |
+| Layout | max-width 1080px centered; sections 48px vertical padding, 1px border between |
+
+```html
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
+```
+
+## Score color scale (charts + badges)
+
+```python
+def col(s):  # score 0-100
+    return '#15be53' if s >= 80 else ('#9b6829' if s >= 60 else '#ea2261')
+```
+
+Badges: `background: {col}1f; color:{col}; border:1px solid {col}55`.
+
+## Required report sections (in order)
+
+1. **Header** — kicker `Pandora-AEO vX · Auditoría determinista`, domain h1,
+   subtitle, meta-line (pages analyzed / URLs crawled / findings / AR pass
+   count / date).
+2. **Score global** — donut SVG (left, 220px col) + category bars (right).
+3. **Distribución de scores por página** — histogram.
+4. **Hallazgos principales** — 2-col card grid, sorted by impact desc then
+   effort asc then count desc; left border color by severity
+   (impact ≥7 danger, ≥5 warning, else purple-light).
+5. **Páginas que requieren atención** — full table of pages with score < 75
+   (score badge, words, URL mono, title).
+6. **Agent Readiness** — dark `#1c1e54` section: 4 stat cards (pass/fail/AI
+   bots/agent endpoints), approved pills, failed checks list with category +
+   impact/effort + recommendation.
+7. **Plan de acción priorizado** — numbered list ordered by impact/effort.
+8. Footer methodology note (deterministic measurement disclaimer, date).
+
+## Chart patterns (hand-built SVG/CSS — no chart libraries)
+
+**Donut** (score g, radius 70, stroke 16):
+```html
+<svg viewBox="0 0 200 200" class="donut">
+<circle cx="100" cy="100" r="70" fill="none" stroke="#e5edf5" stroke-width="16"/>
+<circle cx="100" cy="100" r="70" fill="none" stroke="{col(g)}" stroke-width="16"
+ stroke-linecap="round" stroke-dasharray="{2*pi*70*g/100:.1f} {2*pi*70:.1f}"
+ transform="rotate(-90 100 100)"/>
+<text x="100" y="95" text-anchor="middle" class="donut-num">{g}</text>
+<text x="100" y="118" text-anchor="middle" class="donut-lab">de 100</text></svg>
+```
+
+**Category bars:** CSS grid rows `170px 1fr 40px`, track `#f0f4f8` height 10px
+radius 4, fill width = score%.
+
+**Histogram:** flex row of score buckets; bar height = `count / max_count * 120px`,
+min 4px; label under each bar; `title` attr with exact count.
+
+**Stat cards:** 4-col grid (2-col mobile), border + signature shadow,
+number 32px weight 300, label 13px.
+
+## DOCX generation
+
+Same data, same section order. Convert the HTML's chart regions to PNGs by
+screenshotting each section with headless Chrome CDP
+(`Page.captureScreenshot` with `clip` at `scale: 2`) and embed with
+`python-docx` `add_picture` / the `docx` skill's `image` block (`width_mm`
+≈ 165–170). Tables are allowed ONLY for page-level detail and check lists —
+never as the sole data presentation. Keep the Stripe colors in embedded charts
+and heading styles.
+
+## QA checklist (run before delivery)
+
+- [ ] HTML parses with zero unclosed tags / unmatched elements
+- [ ] All h2 sections present (count them: expect 6 sections + header)
+- [ ] Table row count == number of worst pages
+- [ ] Donut number == global score; bar lengths match values (visual check)
+- [ ] No unescaped engine text (search the HTML for raw `<` inside .fev divs)
+- [ ] 0 occurrences of "Bizbrain" / "isitagentready" / external system names
+- [ ] DOCX validates (`docx_validate.py` or python-docx open+save round-trip)
+- [ ] Both files handed off or uploaded, delivery method stated
+
+## Reference files (bundled)
+
+- `references/stripe-tokens.md` — full extracted Stripe design system
+  (palette, typography scale, component specs, do/don'ts) for styling beyond
+  the tokens above.
+- `references/example-report.html` — rendered reference report
+  (executrain.com.mx audit) that defines the target quality bar.
 
 ## Common failure modes (do NOT repeat)
 - Generating a plain-table DOCX with no charts and no Stripe styling (happened 2026-09-13; user flagged it).

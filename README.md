@@ -5,8 +5,7 @@ Portable AEO and Agent Readiness building blocks for Hermes Agent.
 ## What this repository contains
 
 - `pandora_aeo/`: dependency-free deterministic HTML audit engine.
-- `optional-skills/aeo-audit/SKILL.md`: installable Hermes skill — audit workflow + mandatory report workflow.
-- `optional-skills/report-design/SKILL.md`: installable Hermes skill — client-grade report generation (Stripe-style HTML with embedded SVG charts + DOCX).
+- `optional-skills/aeo-audit/SKILL.md`: installable Hermes skill — audit workflow + mandatory report workflow + bundled report design system (Stripe tokens, SVG chart patterns, DOCX rules, QA checklist). One self-contained skill.
 - `scripts/bootstrap_hermes_profile.py`: creates an isolated profile and installs the skills.
 - `tests/`: offline tests; no live network required.
 - `docs/hermes-setup.md`: setup procedure for a new Hermes profile.
@@ -16,12 +15,8 @@ The engine measures facts. Hermes interprets results, generates assets, files ev
 
 ## Skills
 
-| Skill | Purpose |
-|---|---|
-| `aeo-audit` | Run the audit engine (full crawl, `--max-pages 2000`), interpret scores, and follow the mandatory 7-step report workflow (visual system → HTML → DOCX → REGLA DURA → delivery). |
-| `report-design` | Design system and chart patterns for the deliverables: Stripe tokens, donut/bars/histogram/cards/Agent-Readiness grid as inline SVG, DOCX chart embedding, QA checklist, delivery rules. |
+Single skill: `aeo-audit` drives everything — full crawl (`--max-pages 2000`), score interpretation, the mandatory report workflow (visual system → interactive HTML with embedded SVG charts → DOCX → REGLA DURA → delivery), and the bundled report design system (Stripe tokens, donut/bars/histogram/cards/Agent-Readiness patterns, DOCX embedding, QA checklist). `scripts/bootstrap_hermes_profile.py` installs it into a new Hermes profile in one command.
 
-Install both skills into a Hermes profile by copying each skill directory into the profile's `skills/` folder (or run `scripts/bootstrap_hermes_profile.py`).
 
 ## Quick start
 
@@ -34,7 +29,7 @@ python -m pandora_aeo.cli https://example.com --crawl --max-pages 2000 --output 
 python -m unittest discover -s tests -v
 ```
 
-Then load the `aeo-audit` skill in Hermes and follow its **Report Workflow** section: it drives the report generation through `report-design` conventions. The hard rule for all deliverables: only facts measured by Pandora-AEO — no comparisons with external systems (AEO Bizbrain, isitagentready.com, etc.).
+Then load the `aeo-audit` skill in Hermes and follow its **Report Workflow** section — the design system it references ships inside the same skill. The hard rule for all deliverables: only facts measured by Pandora-AEO — no comparisons with external systems (AEO Bizbrain, isitagentready.com, etc.).
 
 ## Scope and safety
 
