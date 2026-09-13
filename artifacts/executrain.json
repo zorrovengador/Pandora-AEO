@@ -1,0 +1,2531 @@
+{
+  "run": {
+    "engine_version": "0.3.0",
+    "measured_at": "2026-09-13T17:33:18.422807+00:00",
+    "timeout_seconds": 20,
+    "max_pages": 30
+  },
+  "target": {
+    "url": "https://executrain.com.mx"
+  },
+  "global_score": 71,
+  "category_scores": {
+    "technicalSeo": 50,
+    "metadata": 72,
+    "htmlSemantics": 67,
+    "structuredData": 90,
+    "llmContent": 83,
+    "i18n": 45,
+    "metaAdsReadiness": 63,
+    "performance": 97
+  },
+  "pages": [
+    {
+      "url": "https://executrain.com.mx",
+      "title": "ExecuTrain, Cursos y certificaciones en tecnologías informáticasWhatsApp",
+      "word_count": 4005,
+      "score": 81
+    },
+    {
+      "url": "http://executrain.com.mx/advanced-python/",
+      "title": "Python nivel II - ExecutrainWhatsApp",
+      "word_count": 4234,
+      "score": 83
+    },
+    {
+      "url": "http://executrain.com.mx/aws-developer-certification/",
+      "title": "AWS Developer Certification - ExecutrainWhatsApp",
+      "word_count": 5682,
+      "score": 83
+    },
+    {
+      "url": "http://executrain.com.mx/aws-solutions-architect-certification-associate-level/",
+      "title": "AWS Solutions Architect Certification (Associate Level) - ExecutrainWhatsApp",
+      "word_count": 4733,
+      "score": 81
+    },
+    {
+      "url": "http://executrain.com.mx/blog/",
+      "title": "Blog - ExecutrainWhatsApp",
+      "word_count": 1304,
+      "score": 90
+    },
+    {
+      "url": "http://executrain.com.mx/category/blog/aplicaciones-moviles/",
+      "title": "Blog - Desarrollo de Software Archives - ExecutrainWhatsApp",
+      "word_count": 879,
+      "score": 60
+    },
+    {
+      "url": "http://executrain.com.mx/category/blog/big-data-2/",
+      "title": "blog - Big Data / Business Intelligence Archives - ExecutrainWhatsApp",
+      "word_count": 917,
+      "score": 58
+    },
+    {
+      "url": "http://executrain.com.mx/category/blog/cloud-computing-2/",
+      "title": "Blog - Cloud Computing / Virtualización Archives - ExecutrainWhatsApp",
+      "word_count": 882,
+      "score": 58
+    },
+    {
+      "url": "http://executrain.com.mx/category/blog/mejores-practicas/",
+      "title": "Blog - Mejores Prácticas Archives - ExecutrainWhatsApp",
+      "word_count": 865,
+      "score": 60
+    },
+    {
+      "url": "http://executrain.com.mx/category/blog/microsoft-2/",
+      "title": "Blog - Microsoft Archives - ExecutrainWhatsApp",
+      "word_count": 864,
+      "score": 67
+    },
+    {
+      "url": "http://executrain.com.mx/category/blog/office/",
+      "title": "Blog - Office Archives - ExecutrainWhatsApp",
+      "word_count": 853,
+      "score": 67
+    },
+    {
+      "url": "http://executrain.com.mx/category/blog/seguridad-2/",
+      "title": "Blog - Ciberseguridad informatica Archives - ExecutrainWhatsApp",
+      "word_count": 876,
+      "score": 60
+    },
+    {
+      "url": "http://executrain.com.mx/category/blog/sistemas-operativos/",
+      "title": "Blog - Sistemas Operativos Archives - ExecutrainWhatsApp",
+      "word_count": 869,
+      "score": 60
+    },
+    {
+      "url": "http://executrain.com.mx/certificacion-del-nivel-lpic-3-300-mixed-environments/",
+      "title": "Certificación del nivel LPIC-3 300: Mixed Environments - ExecutrainWhatsApp",
+      "word_count": 4457,
+      "score": 81
+    },
+    {
+      "url": "http://executrain.com.mx/cobit/",
+      "title": "Cobit - ExecutrainWhatsApp",
+      "word_count": 4556,
+      "score": 81
+    },
+    {
+      "url": "http://executrain.com.mx/curso-administracion-de-proyectos-pmp/",
+      "title": "Curso Administración de Proyectos con IA - ExecutrainWhatsApp",
+      "word_count": 4700,
+      "score": 83
+    },
+    {
+      "url": "http://executrain.com.mx/curso-az-104-microsoft-azure-administrator/",
+      "title": "",
+      "word_count": 2526,
+      "score": 27
+    },
+    {
+      "url": "http://executrain.com.mx/curso-de-linux-oficial-lpi-preparacion-examenes-101-y-102/",
+      "title": "Curso de Linux Oficial LPI - Preparación Exámenes 101 y 102 - ExecutrainWhatsApp",
+      "word_count": 4694,
+      "score": 81
+    },
+    {
+      "url": "http://executrain.com.mx/curso-fundamentos-de-docker-devsecops-y-de-la-red-docker/",
+      "title": "Curso Fundamentos de Docker, DevSecOps y de la Red Docker - ExecutrainWhatsApp",
+      "word_count": 4320,
+      "score": 81
+    },
+    {
+      "url": "http://executrain.com.mx/curso-hardening-con-docker-seguridad-docker-avanzado/",
+      "title": "Curso HARDENING CON DOCKER, SEGURIDAD, DOCKER AVANZADO - ExecutrainWhatsApp",
+      "word_count": 4213,
+      "score": 81
+    },
+    {
+      "url": "http://executrain.com.mx/curso-microsoft-pl-300-microsoft-power-bi-data-analyst/",
+      "title": "",
+      "word_count": 2637,
+      "score": 27
+    },
+    {
+      "url": "http://executrain.com.mx/curso-microsoft-power-bi-basico/",
+      "title": "Curso Power BI para Usuario Final. 20 Hrs Online con Instructor ✮ ExecutrainWhatsApp",
+      "word_count": 6049,
+      "score": 81
+    },
+    {
+      "url": "http://executrain.com.mx/curso-microsoft-windows-server-administration/",
+      "title": "",
+      "word_count": 2710,
+      "score": 27
+    },
+    {
+      "url": "http://executrain.com.mx/curso-oficial-de-especialista-en-bsd-exam-702/",
+      "title": "Curso oficial de Especialista en BSD - Exam 702 - ExecutrainWhatsApp",
+      "word_count": 4959,
+      "score": 81
+    },
+    {
+      "url": "http://executrain.com.mx/curso-oficial-devops-tools-engineer-exam-705/",
+      "title": "Curso oficial DevOps Tools Engineer - Exam 705 - ExecutrainWhatsApp",
+      "word_count": 4537,
+      "score": 81
+    },
+    {
+      "url": "http://executrain.com.mx/curso-oficial-linux-essentials/",
+      "title": "Curso oficial Linux Essentials - ExecutrainWhatsApp",
+      "word_count": 4238,
+      "score": 83
+    },
+    {
+      "url": "http://executrain.com.mx/curso-oficial-linux-lpic-2-exam-201-examen/",
+      "title": "Curso oficial Linux LPIC-2 Exam 201 + examen - ExecutrainWhatsApp",
+      "word_count": 4435,
+      "score": 83
+    },
+    {
+      "url": "http://executrain.com.mx/curso-oficial-linux-lpic-2-exam-202-examen/",
+      "title": "Curso oficial Linux LPIC-2 Exam 202 + examen - ExecutrainWhatsApp",
+      "word_count": 4333,
+      "score": 83
+    },
+    {
+      "url": "http://executrain.com.mx/curso-oficial-linux-lpic-3-304-virtualization-high-availability-examen/",
+      "title": "Curso oficial Linux LPIC-3 304: Virtualization & High Availability + examen - ExecutrainWhatsApp",
+      "word_count": 4568,
+      "score": 81
+    },
+    {
+      "url": "http://executrain.com.mx/curso-security-engineering-on-aws-awsso/",
+      "title": "Curso Security Engineering on AWS (AWSSO) - ExecutrainWhatsApp",
+      "word_count": 4963,
+      "score": 71
+    }
+  ],
+  "findings": [
+    {
+      "id": "H1_COUNT",
+      "value": 0,
+      "status": "warn",
+      "evidence": "h1_count=0",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "h1_count=4",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 5,
+      "status": "warn",
+      "evidence": "h1_count=5",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 5,
+      "status": "warn",
+      "evidence": "h1_count=5",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 0,
+      "status": "warn",
+      "evidence": "h1_count=0",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "OG_IMAGE",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=missing",
+      "recommendation": "Add <meta property=\"og:image\"> with a 1200x630px image.",
+      "category": "metadata",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "META_ADS_READY",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=False og:title=True og:description=False",
+      "recommendation": "Ensure all Open Graph tags (image, title, description) are present for ad sharing.",
+      "category": "metaAdsReadiness",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 0,
+      "status": "warn",
+      "evidence": "h1_count=0",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "OG_IMAGE",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=missing",
+      "recommendation": "Add <meta property=\"og:image\"> with a 1200x630px image.",
+      "category": "metadata",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "META_ADS_READY",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=False og:title=True og:description=False",
+      "recommendation": "Ensure all Open Graph tags (image, title, description) are present for ad sharing.",
+      "category": "metaAdsReadiness",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 0,
+      "status": "warn",
+      "evidence": "h1_count=0",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "OG_IMAGE",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=missing",
+      "recommendation": "Add <meta property=\"og:image\"> with a 1200x630px image.",
+      "category": "metadata",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "META_ADS_READY",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=False og:title=True og:description=False",
+      "recommendation": "Ensure all Open Graph tags (image, title, description) are present for ad sharing.",
+      "category": "metaAdsReadiness",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 0,
+      "status": "warn",
+      "evidence": "h1_count=0",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "OG_IMAGE",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=missing",
+      "recommendation": "Add <meta property=\"og:image\"> with a 1200x630px image.",
+      "category": "metadata",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "META_ADS_READY",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=False og:title=True og:description=False",
+      "recommendation": "Ensure all Open Graph tags (image, title, description) are present for ad sharing.",
+      "category": "metaAdsReadiness",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 0,
+      "status": "warn",
+      "evidence": "h1_count=0",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "OG_IMAGE",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=missing",
+      "recommendation": "Add <meta property=\"og:image\"> with a 1200x630px image.",
+      "category": "metadata",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "META_ADS_READY",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=False og:title=True og:description=False",
+      "recommendation": "Ensure all Open Graph tags (image, title, description) are present for ad sharing.",
+      "category": "metaAdsReadiness",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 0,
+      "status": "warn",
+      "evidence": "h1_count=0",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "OG_IMAGE",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=missing",
+      "recommendation": "Add <meta property=\"og:image\"> with a 1200x630px image.",
+      "category": "metadata",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "META_ADS_READY",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=False og:title=True og:description=False",
+      "recommendation": "Ensure all Open Graph tags (image, title, description) are present for ad sharing.",
+      "category": "metaAdsReadiness",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 0,
+      "status": "warn",
+      "evidence": "h1_count=0",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "OG_IMAGE",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=missing",
+      "recommendation": "Add <meta property=\"og:image\"> with a 1200x630px image.",
+      "category": "metadata",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "META_ADS_READY",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=False og:title=True og:description=False",
+      "recommendation": "Ensure all Open Graph tags (image, title, description) are present for ad sharing.",
+      "category": "metaAdsReadiness",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 0,
+      "status": "warn",
+      "evidence": "h1_count=0",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "OG_IMAGE",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=missing",
+      "recommendation": "Add <meta property=\"og:image\"> with a 1200x630px image.",
+      "category": "metadata",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "META_ADS_READY",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=False og:title=True og:description=False",
+      "recommendation": "Ensure all Open Graph tags (image, title, description) are present for ad sharing.",
+      "category": "metaAdsReadiness",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "h1_count=4",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "h1_count=4",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "h1_count=4",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "TITLE_PRESENT",
+      "value": false,
+      "status": "fail",
+      "evidence": "",
+      "recommendation": "Add one descriptive title.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 1
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 0,
+      "status": "warn",
+      "evidence": "h1_count=0",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "OG_IMAGE",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=missing",
+      "recommendation": "Add <meta property=\"og:image\"> with a 1200x630px image.",
+      "category": "metadata",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "META_ADS_READY",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=False og:title=False og:description=False",
+      "recommendation": "Ensure all Open Graph tags (image, title, description) are present for ad sharing.",
+      "category": "metaAdsReadiness",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "h1_count=4",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "h1_count=4",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "h1_count=4",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "TITLE_PRESENT",
+      "value": false,
+      "status": "fail",
+      "evidence": "",
+      "recommendation": "Add one descriptive title.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 1
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 0,
+      "status": "warn",
+      "evidence": "h1_count=0",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "OG_IMAGE",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=missing",
+      "recommendation": "Add <meta property=\"og:image\"> with a 1200x630px image.",
+      "category": "metadata",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "META_ADS_READY",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=False og:title=False og:description=False",
+      "recommendation": "Ensure all Open Graph tags (image, title, description) are present for ad sharing.",
+      "category": "metaAdsReadiness",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "h1_count=4",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "TITLE_PRESENT",
+      "value": false,
+      "status": "fail",
+      "evidence": "",
+      "recommendation": "Add one descriptive title.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 1
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 0,
+      "status": "warn",
+      "evidence": "h1_count=0",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "OG_IMAGE",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=missing",
+      "recommendation": "Add <meta property=\"og:image\"> with a 1200x630px image.",
+      "category": "metadata",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "META_ADS_READY",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:image=False og:title=False og:description=False",
+      "recommendation": "Ensure all Open Graph tags (image, title, description) are present for ad sharing.",
+      "category": "metaAdsReadiness",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "h1_count=4",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "h1_count=4",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "h1_count=4",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "h1_count=4",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "h1_count=4",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "h1_count=4",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "H1_COUNT",
+      "value": 5,
+      "status": "warn",
+      "evidence": "h1_count=5",
+      "recommendation": "Use exactly one primary H1.",
+      "category": "technicalSeo",
+      "impact": 8,
+      "effort": 2
+    },
+    {
+      "id": "META_DESCRIPTION",
+      "value": false,
+      "status": "fail",
+      "evidence": "",
+      "recommendation": "Add a concise meta description.",
+      "category": "technicalSeo",
+      "impact": 7,
+      "effort": 2
+    },
+    {
+      "id": "META_DESCRIPTION",
+      "value": false,
+      "status": "fail",
+      "evidence": "",
+      "recommendation": "Add a concise meta description.",
+      "category": "technicalSeo",
+      "impact": 7,
+      "effort": 2
+    },
+    {
+      "id": "META_DESCRIPTION",
+      "value": false,
+      "status": "fail",
+      "evidence": "",
+      "recommendation": "Add a concise meta description.",
+      "category": "technicalSeo",
+      "impact": 7,
+      "effort": 2
+    },
+    {
+      "id": "META_DESCRIPTION",
+      "value": false,
+      "status": "fail",
+      "evidence": "",
+      "recommendation": "Add a concise meta description.",
+      "category": "technicalSeo",
+      "impact": 7,
+      "effort": 2
+    },
+    {
+      "id": "META_DESCRIPTION",
+      "value": false,
+      "status": "fail",
+      "evidence": "",
+      "recommendation": "Add a concise meta description.",
+      "category": "technicalSeo",
+      "impact": 7,
+      "effort": 2
+    },
+    {
+      "id": "META_DESCRIPTION",
+      "value": false,
+      "status": "fail",
+      "evidence": "",
+      "recommendation": "Add a concise meta description.",
+      "category": "technicalSeo",
+      "impact": 7,
+      "effort": 2
+    },
+    {
+      "id": "META_DESCRIPTION",
+      "value": false,
+      "status": "fail",
+      "evidence": "",
+      "recommendation": "Add a concise meta description.",
+      "category": "technicalSeo",
+      "impact": 7,
+      "effort": 2
+    },
+    {
+      "id": "META_DESCRIPTION",
+      "value": false,
+      "status": "fail",
+      "evidence": "",
+      "recommendation": "Add a concise meta description.",
+      "category": "technicalSeo",
+      "impact": 7,
+      "effort": 2
+    },
+    {
+      "id": "META_DESCRIPTION",
+      "value": false,
+      "status": "fail",
+      "evidence": "",
+      "recommendation": "Add a concise meta description.",
+      "category": "technicalSeo",
+      "impact": 7,
+      "effort": 2
+    },
+    {
+      "id": "JSON_LD",
+      "value": 0,
+      "status": "warn",
+      "evidence": "valid_blocks=0; total=0",
+      "recommendation": "Add valid JSON-LD structured data.",
+      "category": "structuredData",
+      "impact": 7,
+      "effort": 4
+    },
+    {
+      "id": "META_DESCRIPTION",
+      "value": false,
+      "status": "fail",
+      "evidence": "",
+      "recommendation": "Add a concise meta description.",
+      "category": "technicalSeo",
+      "impact": 7,
+      "effort": 2
+    },
+    {
+      "id": "JSON_LD",
+      "value": 0,
+      "status": "warn",
+      "evidence": "valid_blocks=0; total=0",
+      "recommendation": "Add valid JSON-LD structured data.",
+      "category": "structuredData",
+      "impact": 7,
+      "effort": 4
+    },
+    {
+      "id": "META_DESCRIPTION",
+      "value": false,
+      "status": "fail",
+      "evidence": "",
+      "recommendation": "Add a concise meta description.",
+      "category": "technicalSeo",
+      "impact": 7,
+      "effort": 2
+    },
+    {
+      "id": "JSON_LD",
+      "value": 0,
+      "status": "warn",
+      "evidence": "valid_blocks=0; total=0",
+      "recommendation": "Add valid JSON-LD structured data.",
+      "category": "structuredData",
+      "impact": 7,
+      "effort": 4
+    },
+    {
+      "id": "MARKDOWN_NEGOTIATION",
+      "value": false,
+      "status": "fail",
+      "evidence": "Accept:text/markdown -> text/html; charset=UTF-8",
+      "recommendation": "Enable Markdown for Agents.",
+      "category": "content_accessibility",
+      "impact": 7,
+      "effort": 2
+    },
+    {
+      "id": "MCP_SERVER_CARD",
+      "value": false,
+      "status": "fail",
+      "evidence": "HTTP 404 /.well-known/mcp/server-card.json",
+      "recommendation": "Publish an MCP Server Card (SEP-1649).",
+      "category": "api_auth_mcp",
+      "impact": 7,
+      "effort": 5
+    },
+    {
+      "id": "MCP_JSON",
+      "value": false,
+      "status": "fail",
+      "evidence": "HTTP 404 /.well-known/mcp.json",
+      "recommendation": "Publish MCP server metadata.",
+      "category": "api_auth_mcp",
+      "impact": 7,
+      "effort": 5
+    },
+    {
+      "id": "AGENT_SKILLS_INDEX",
+      "value": false,
+      "status": "fail",
+      "evidence": "HTTP 404 /.well-known/agent-skills/index.json",
+      "recommendation": "Publish Agent Skills index (RFC v0.2.0).",
+      "category": "api_auth_mcp",
+      "impact": 7,
+      "effort": 4
+    },
+    {
+      "id": "QUESTION_HEADINGS",
+      "value": 1,
+      "status": "warn",
+      "evidence": "question_headings=1/20",
+      "recommendation": "Convert headings to real questions followed by direct answers. AI engines extract and cite this format.",
+      "category": "llmContent",
+      "impact": 6,
+      "effort": 4
+    },
+    {
+      "id": "QUESTION_HEADINGS",
+      "value": 1,
+      "status": "warn",
+      "evidence": "question_headings=1/6",
+      "recommendation": "Convert headings to real questions followed by direct answers. AI engines extract and cite this format.",
+      "category": "llmContent",
+      "impact": 6,
+      "effort": 4
+    },
+    {
+      "id": "QUESTION_HEADINGS",
+      "value": 0,
+      "status": "warn",
+      "evidence": "question_headings=0/6",
+      "recommendation": "Convert headings to real questions followed by direct answers. AI engines extract and cite this format.",
+      "category": "llmContent",
+      "impact": 6,
+      "effort": 4
+    },
+    {
+      "id": "QUESTION_HEADINGS",
+      "value": 1,
+      "status": "warn",
+      "evidence": "question_headings=1/6",
+      "recommendation": "Convert headings to real questions followed by direct answers. AI engines extract and cite this format.",
+      "category": "llmContent",
+      "impact": 6,
+      "effort": 4
+    },
+    {
+      "id": "QUESTION_HEADINGS",
+      "value": 1,
+      "status": "warn",
+      "evidence": "question_headings=1/6",
+      "recommendation": "Convert headings to real questions followed by direct answers. AI engines extract and cite this format.",
+      "category": "llmContent",
+      "impact": 6,
+      "effort": 4
+    },
+    {
+      "id": "QUESTION_HEADINGS",
+      "value": 1,
+      "status": "warn",
+      "evidence": "question_headings=1/6",
+      "recommendation": "Convert headings to real questions followed by direct answers. AI engines extract and cite this format.",
+      "category": "llmContent",
+      "impact": 6,
+      "effort": 4
+    },
+    {
+      "id": "QUESTION_HEADINGS",
+      "value": 1,
+      "status": "warn",
+      "evidence": "question_headings=1/6",
+      "recommendation": "Convert headings to real questions followed by direct answers. AI engines extract and cite this format.",
+      "category": "llmContent",
+      "impact": 6,
+      "effort": 4
+    },
+    {
+      "id": "QUESTION_HEADINGS",
+      "value": 0,
+      "status": "warn",
+      "evidence": "question_headings=0/0",
+      "recommendation": "Convert headings to real questions followed by direct answers. AI engines extract and cite this format.",
+      "category": "llmContent",
+      "impact": 6,
+      "effort": 4
+    },
+    {
+      "id": "QUESTION_HEADINGS",
+      "value": 0,
+      "status": "warn",
+      "evidence": "question_headings=0/0",
+      "recommendation": "Convert headings to real questions followed by direct answers. AI engines extract and cite this format.",
+      "category": "llmContent",
+      "impact": 6,
+      "effort": 4
+    },
+    {
+      "id": "QUESTION_HEADINGS",
+      "value": 0,
+      "status": "warn",
+      "evidence": "question_headings=0/0",
+      "recommendation": "Convert headings to real questions followed by direct answers. AI engines extract and cite this format.",
+      "category": "llmContent",
+      "impact": 6,
+      "effort": 4
+    },
+    {
+      "id": "AI_BOT_RULES",
+      "value": 0,
+      "status": "fail",
+      "evidence": "0 AI bots configured",
+      "recommendation": "Add AI bot rules to robots.txt.",
+      "category": "bot_access_control",
+      "impact": 6,
+      "effort": 1
+    },
+    {
+      "id": "API_CATALOG",
+      "value": false,
+      "status": "fail",
+      "evidence": "HTTP 404 /.well-known/api-catalog",
+      "recommendation": "Publish an API catalog (RFC 9727).",
+      "category": "api_auth_mcp",
+      "impact": 6,
+      "effort": 4
+    },
+    {
+      "id": "AUTH_MD",
+      "value": false,
+      "status": "fail",
+      "evidence": "HTTP 404 /auth.md",
+      "recommendation": "Publish auth.md for agent registration.",
+      "category": "api_auth_mcp",
+      "impact": 6,
+      "effort": 4
+    },
+    {
+      "id": "ARD_MANIFEST",
+      "value": false,
+      "status": "fail",
+      "evidence": "HTTP 404 /.well-known/ai-catalog.json",
+      "recommendation": "Publish an ARD manifest.",
+      "category": "commerce_info",
+      "impact": 6,
+      "effort": 5
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 34,
+      "status": "warn",
+      "evidence": "missing_alt=34/111",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 11,
+      "status": "warn",
+      "evidence": "missing_alt=11/86",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 14,
+      "status": "warn",
+      "evidence": "missing_alt=14/89",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 14,
+      "status": "warn",
+      "evidence": "missing_alt=14/89",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "missing_alt=4/20",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "missing_alt=4/17",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "missing_alt=4/17",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "missing_alt=4/17",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "missing_alt=4/17",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "missing_alt=4/17",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "missing_alt=4/17",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "missing_alt=4/17",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 4,
+      "status": "warn",
+      "evidence": "missing_alt=4/17",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 10,
+      "status": "warn",
+      "evidence": "missing_alt=10/85",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 13,
+      "status": "warn",
+      "evidence": "missing_alt=13/88",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 14,
+      "status": "warn",
+      "evidence": "missing_alt=14/89",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "CANONICAL",
+      "value": false,
+      "status": "warn",
+      "evidence": "canonical=False",
+      "recommendation": "Declare the preferred canonical URL.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 1
+    },
+    {
+      "id": "OG_TITLE",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:title=missing",
+      "recommendation": "Add <meta property=\"og:title\"> with a descriptive title.",
+      "category": "metadata",
+      "impact": 5,
+      "effort": 1
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 10,
+      "status": "warn",
+      "evidence": "missing_alt=10/85",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 11,
+      "status": "warn",
+      "evidence": "missing_alt=11/86",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 11,
+      "status": "warn",
+      "evidence": "missing_alt=11/86",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "CANONICAL",
+      "value": false,
+      "status": "warn",
+      "evidence": "canonical=False",
+      "recommendation": "Declare the preferred canonical URL.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 1
+    },
+    {
+      "id": "OG_TITLE",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:title=missing",
+      "recommendation": "Add <meta property=\"og:title\"> with a descriptive title.",
+      "category": "metadata",
+      "impact": 5,
+      "effort": 1
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 16,
+      "status": "warn",
+      "evidence": "missing_alt=16/92",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "CANONICAL",
+      "value": false,
+      "status": "warn",
+      "evidence": "canonical=False",
+      "recommendation": "Declare the preferred canonical URL.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 1
+    },
+    {
+      "id": "OG_TITLE",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:title=missing",
+      "recommendation": "Add <meta property=\"og:title\"> with a descriptive title.",
+      "category": "metadata",
+      "impact": 5,
+      "effort": 1
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 10,
+      "status": "warn",
+      "evidence": "missing_alt=10/85",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 10,
+      "status": "warn",
+      "evidence": "missing_alt=10/85",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 10,
+      "status": "warn",
+      "evidence": "missing_alt=10/85",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 10,
+      "status": "warn",
+      "evidence": "missing_alt=10/85",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 10,
+      "status": "warn",
+      "evidence": "missing_alt=10/85",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 10,
+      "status": "warn",
+      "evidence": "missing_alt=10/85",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "IMAGES_WITHOUT_ALT",
+      "value": 14,
+      "status": "warn",
+      "evidence": "missing_alt=14/89",
+      "recommendation": "Add useful alt text to all images.",
+      "category": "technicalSeo",
+      "impact": 5,
+      "effort": 2
+    },
+    {
+      "id": "OAUTH_AUTH_SERVER",
+      "value": false,
+      "status": "fail",
+      "evidence": "HTTP 404 /.well-known/oauth-authorization-server",
+      "recommendation": "Publish OAuth authorization server metadata (RFC 8414).",
+      "category": "api_auth_mcp",
+      "impact": 5,
+      "effort": 5
+    },
+    {
+      "id": "OIDC_DISCOVERY",
+      "value": false,
+      "status": "fail",
+      "evidence": "HTTP 404 /.well-known/openid-configuration",
+      "recommendation": "Publish OpenID Connect discovery metadata.",
+      "category": "api_auth_mcp",
+      "impact": 5,
+      "effort": 5
+    },
+    {
+      "id": "OAUTH_PROTECTED_RESOURCE",
+      "value": false,
+      "status": "fail",
+      "evidence": "HTTP 404 /.well-known/oauth-protected-resource",
+      "recommendation": "Publish OAuth Protected Resource metadata (RFC 9728).",
+      "category": "api_auth_mcp",
+      "impact": 5,
+      "effort": 5
+    },
+    {
+      "id": "UCP_PROFILE",
+      "value": false,
+      "status": "fail",
+      "evidence": "HTTP 404 /.well-known/ucp",
+      "recommendation": "Publish UCP profile (ucp.dev).",
+      "category": "commerce_info",
+      "impact": 5,
+      "effort": 5
+    },
+    {
+      "id": "ACP_DISCOVERY",
+      "value": false,
+      "status": "fail",
+      "evidence": "HTTP 404 /.well-known/acp.json",
+      "recommendation": "Publish ACP discovery (agenticcommerce.dev).",
+      "category": "commerce_info",
+      "impact": 5,
+      "effort": 5
+    },
+    {
+      "id": "OPENAPI_JSON",
+      "value": false,
+      "status": "fail",
+      "evidence": "HTTP 404 /openapi.json",
+      "recommendation": "Publish an OpenAPI specification.",
+      "category": "commerce_info",
+      "impact": 5,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 72,
+      "status": "warn",
+      "evidence": "len=72: ExecuTrain, Cursos y certificaciones en tecnologías informáticasWhatsApp",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 76,
+      "status": "warn",
+      "evidence": "len=76: AWS Solutions Architect Certification (Associate Level) - ExecutrainWhatsApp",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 25,
+      "status": "warn",
+      "evidence": "len=25: Blog - ExecutrainWhatsApp",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "OG_DESCRIPTION",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:description=missing",
+      "recommendation": "Add <meta property=\"og:description\"> with a page summary.",
+      "category": "metadata",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 69,
+      "status": "warn",
+      "evidence": "len=69: blog - Big Data / Business Intelligence Archives - ExecutrainWhatsApp",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "OG_DESCRIPTION",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:description=missing",
+      "recommendation": "Add <meta property=\"og:description\"> with a page summary.",
+      "category": "metadata",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 69,
+      "status": "warn",
+      "evidence": "len=69: Blog - Cloud Computing / Virtualización Archives - ExecutrainWhatsApp",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "OG_DESCRIPTION",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:description=missing",
+      "recommendation": "Add <meta property=\"og:description\"> with a page summary.",
+      "category": "metadata",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "OG_DESCRIPTION",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:description=missing",
+      "recommendation": "Add <meta property=\"og:description\"> with a page summary.",
+      "category": "metadata",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "OG_DESCRIPTION",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:description=missing",
+      "recommendation": "Add <meta property=\"og:description\"> with a page summary.",
+      "category": "metadata",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "OG_DESCRIPTION",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:description=missing",
+      "recommendation": "Add <meta property=\"og:description\"> with a page summary.",
+      "category": "metadata",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "OG_DESCRIPTION",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:description=missing",
+      "recommendation": "Add <meta property=\"og:description\"> with a page summary.",
+      "category": "metadata",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "OG_DESCRIPTION",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:description=missing",
+      "recommendation": "Add <meta property=\"og:description\"> with a page summary.",
+      "category": "metadata",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 75,
+      "status": "warn",
+      "evidence": "len=75: Certificación del nivel LPIC-3 300: Mixed Environments - ExecutrainWhatsApp",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 26,
+      "status": "warn",
+      "evidence": "len=26: Cobit - ExecutrainWhatsApp",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 0,
+      "status": "warn",
+      "evidence": "len=0: ",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "OG_DESCRIPTION",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:description=missing",
+      "recommendation": "Add <meta property=\"og:description\"> with a page summary.",
+      "category": "metadata",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HEADING_COUNT",
+      "value": 0,
+      "status": "warn",
+      "evidence": "headings=0",
+      "recommendation": "Use enough headings (h2-h6) to structure content.",
+      "category": "htmlSemantics",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 80,
+      "status": "warn",
+      "evidence": "len=80: Curso de Linux Oficial LPI - Preparación Exámenes 101 y 102 - ExecutrainWhatsApp",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 78,
+      "status": "warn",
+      "evidence": "len=78: Curso Fundamentos de Docker, DevSecOps y de la Red Docker - ExecutrainWhatsApp",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 75,
+      "status": "warn",
+      "evidence": "len=75: Curso HARDENING CON DOCKER, SEGURIDAD, DOCKER AVANZADO - ExecutrainWhatsApp",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 0,
+      "status": "warn",
+      "evidence": "len=0: ",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "OG_DESCRIPTION",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:description=missing",
+      "recommendation": "Add <meta property=\"og:description\"> with a page summary.",
+      "category": "metadata",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HEADING_COUNT",
+      "value": 0,
+      "status": "warn",
+      "evidence": "headings=0",
+      "recommendation": "Use enough headings (h2-h6) to structure content.",
+      "category": "htmlSemantics",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 84,
+      "status": "warn",
+      "evidence": "len=84: Curso Power BI para Usuario Final. 20 Hrs Online con Instructor ✮ ExecutrainWhat",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 0,
+      "status": "warn",
+      "evidence": "len=0: ",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "OG_DESCRIPTION",
+      "value": false,
+      "status": "warn",
+      "evidence": "og:description=missing",
+      "recommendation": "Add <meta property=\"og:description\"> with a page summary.",
+      "category": "metadata",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HEADING_COUNT",
+      "value": 0,
+      "status": "warn",
+      "evidence": "headings=0",
+      "recommendation": "Use enough headings (h2-h6) to structure content.",
+      "category": "htmlSemantics",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 68,
+      "status": "warn",
+      "evidence": "len=68: Curso oficial de Especialista en BSD - Exam 702 - ExecutrainWhatsApp",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 67,
+      "status": "warn",
+      "evidence": "len=67: Curso oficial DevOps Tools Engineer - Exam 705 - ExecutrainWhatsApp",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "TITLE_LENGTH",
+      "value": 96,
+      "status": "warn",
+      "evidence": "len=96: Curso oficial Linux LPIC-3 304: Virtualization & High Availability + examen - Ex",
+      "recommendation": "Keep the title between 30 and 65 characters.",
+      "category": "technicalSeo",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "HREFLANG",
+      "value": 0,
+      "status": "warn",
+      "evidence": "hreflang_tags=0; lang=en-US",
+      "recommendation": "Add <link rel=\"alternate\" hreflang=\"es-MX\" ...> for regional targeting.",
+      "category": "i18n",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "HTML_SIZE",
+      "value": 509431,
+      "status": "warn",
+      "evidence": "html_bytes=509431",
+      "recommendation": "Keep HTML under 500KB for fast rendering.",
+      "category": "performance",
+      "impact": 4,
+      "effort": 2
+    },
+    {
+      "id": "DNS_AID",
+      "value": false,
+      "status": "fail",
+      "evidence": "found=False dnssec=False",
+      "recommendation": "Publish DNS-AID with DNSSEC (RFC 9460).",
+      "category": "discoverability",
+      "impact": 4,
+      "effort": 3
+    },
+    {
+      "id": "CONTENT_SIGNALS",
+      "value": 0,
+      "status": "fail",
+      "evidence": "content_signals=(none)",
+      "recommendation": "Add Content-Signal directives.",
+      "category": "bot_access_control",
+      "impact": 4,
+      "effort": 1
+    },
+    {
+      "id": "WEB_BOT_AUTH",
+      "value": false,
+      "status": "fail",
+      "evidence": "HTTP 404 /.well-known/http-message-signatures-directory",
+      "recommendation": "Publish JWKS for Web Bot Auth.",
+      "category": "commerce_info",
+      "impact": 4,
+      "effort": 4
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 5, 5, 5, 2, 4, 4, 4, 4, 1]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 5, 5, 5, 4, 2, 4, 4, 4, 1]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 5, 5, 5, 4, 2, 4, 4, 4, 1]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 5, 5, 1, 1, 2, 4, 4, 4, 2]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 5, 5, 5, 4, 2, 4, 4, 4, 1]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 5, 5, 5, 2, 4, 4, 4, 4, 4]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "LANG_ATTR",
+      "value": false,
+      "status": "warn",
+      "evidence": "lang=(missing)",
+      "recommendation": "Declare lang attribute on <html>.",
+      "category": "i18n",
+      "impact": 3,
+      "effort": 1
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 5, 5, 1, 1, 2, 4, 4, 4, 2]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 5, 5, 1, 1, 2, 4, 4, 4, 4]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 5, 5, 1, 1, 2, 4, 4, 4, 4]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "LANG_ATTR",
+      "value": false,
+      "status": "warn",
+      "evidence": "lang=(missing)",
+      "recommendation": "Declare lang attribute on <html>.",
+      "category": "i18n",
+      "impact": 3,
+      "effort": 1
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 2, 5, 5, 5, 1, 1, 2, 4, 4]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "LANG_ATTR",
+      "value": false,
+      "status": "warn",
+      "evidence": "lang=(missing)",
+      "recommendation": "Declare lang attribute on <html>.",
+      "category": "i18n",
+      "impact": 3,
+      "effort": 1
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 3, 5, 5, 1, 1, 2, 4, 4, 4]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 5, 5, 1, 1, 2, 4, 4, 4, 2]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 5, 5, 1, 1, 2, 4, 4, 4, 2]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 5, 5, 1, 1, 2, 4, 4, 4, 2]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 5, 5, 1, 1, 2, 4, 4, 4, 2]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 5, 5, 1, 1, 2, 4, 4, 4, 2]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    },
+    {
+      "id": "HEADING_HIERARCHY",
+      "value": false,
+      "status": "warn",
+      "evidence": "hierarchy_broken: seq=[1, 5, 5, 5, 4, 2, 4, 4, 4, 1]",
+      "recommendation": "Don't skip heading levels (e.g. h2 → h4). Keep sequential order.",
+      "category": "htmlSemantics",
+      "impact": 3,
+      "effort": 3
+    }
+  ],
+  "findings_count": 210,
+  "pages_analyzed": 30,
+  "agent_readiness": {
+    "checks": [
+      {
+        "id": "ROBOTS_TXT",
+        "value": true,
+        "status": "pass",
+        "evidence": "HTTP 200 /robots.txt",
+        "recommendation": "Publish /robots.txt (RFC 9309).",
+        "category": "discoverability",
+        "impact": 7,
+        "effort": 2
+      },
+      {
+        "id": "SITEMAP",
+        "value": true,
+        "status": "pass",
+        "evidence": "HTTP 200 /sitemap.xml",
+        "recommendation": "Publish a sitemap.",
+        "category": "discoverability",
+        "impact": 6,
+        "effort": 2
+      },
+      {
+        "id": "LINK_HEADERS",
+        "value": true,
+        "status": "pass",
+        "evidence": "Link: <https://executrain.com.mx/wp-json/>; rel=\"https://api.w.org/\", <https://executrain.com.mx/wp-json/wp/v2/pages/1496>; rel=\"alternate\"; title=\"JSON\"; type=\"application/json\", <https://executrain.com.mx/>; rel=shortlink",
+        "recommendation": "Add Link headers for discovery (RFC 8288).",
+        "category": "discoverability",
+        "impact": 5,
+        "effort": 3
+      },
+      {
+        "id": "DNS_AID",
+        "value": false,
+        "status": "fail",
+        "evidence": "found=False dnssec=False",
+        "recommendation": "Publish DNS-AID with DNSSEC (RFC 9460).",
+        "category": "discoverability",
+        "impact": 4,
+        "effort": 3
+      },
+      {
+        "id": "MARKDOWN_NEGOTIATION",
+        "value": false,
+        "status": "fail",
+        "evidence": "Accept:text/markdown -> text/html; charset=UTF-8",
+        "recommendation": "Enable Markdown for Agents.",
+        "category": "content_accessibility",
+        "impact": 7,
+        "effort": 2
+      },
+      {
+        "id": "AI_BOT_RULES",
+        "value": 0,
+        "status": "fail",
+        "evidence": "0 AI bots configured",
+        "recommendation": "Add AI bot rules to robots.txt.",
+        "category": "bot_access_control",
+        "impact": 6,
+        "effort": 1
+      },
+      {
+        "id": "CONTENT_SIGNALS",
+        "value": 0,
+        "status": "fail",
+        "evidence": "content_signals=(none)",
+        "recommendation": "Add Content-Signal directives.",
+        "category": "bot_access_control",
+        "impact": 4,
+        "effort": 1
+      },
+      {
+        "id": "API_CATALOG",
+        "value": false,
+        "status": "fail",
+        "evidence": "HTTP 404 /.well-known/api-catalog",
+        "recommendation": "Publish an API catalog (RFC 9727).",
+        "category": "api_auth_mcp",
+        "impact": 6,
+        "effort": 4
+      },
+      {
+        "id": "OAUTH_AUTH_SERVER",
+        "value": false,
+        "status": "fail",
+        "evidence": "HTTP 404 /.well-known/oauth-authorization-server",
+        "recommendation": "Publish OAuth authorization server metadata (RFC 8414).",
+        "category": "api_auth_mcp",
+        "impact": 5,
+        "effort": 5
+      },
+      {
+        "id": "OIDC_DISCOVERY",
+        "value": false,
+        "status": "fail",
+        "evidence": "HTTP 404 /.well-known/openid-configuration",
+        "recommendation": "Publish OpenID Connect discovery metadata.",
+        "category": "api_auth_mcp",
+        "impact": 5,
+        "effort": 5
+      },
+      {
+        "id": "OAUTH_PROTECTED_RESOURCE",
+        "value": false,
+        "status": "fail",
+        "evidence": "HTTP 404 /.well-known/oauth-protected-resource",
+        "recommendation": "Publish OAuth Protected Resource metadata (RFC 9728).",
+        "category": "api_auth_mcp",
+        "impact": 5,
+        "effort": 5
+      },
+      {
+        "id": "AUTH_MD",
+        "value": false,
+        "status": "fail",
+        "evidence": "HTTP 404 /auth.md",
+        "recommendation": "Publish auth.md for agent registration.",
+        "category": "api_auth_mcp",
+        "impact": 6,
+        "effort": 4
+      },
+      {
+        "id": "MCP_SERVER_CARD",
+        "value": false,
+        "status": "fail",
+        "evidence": "HTTP 404 /.well-known/mcp/server-card.json",
+        "recommendation": "Publish an MCP Server Card (SEP-1649).",
+        "category": "api_auth_mcp",
+        "impact": 7,
+        "effort": 5
+      },
+      {
+        "id": "MCP_JSON",
+        "value": false,
+        "status": "fail",
+        "evidence": "HTTP 404 /.well-known/mcp.json",
+        "recommendation": "Publish MCP server metadata.",
+        "category": "api_auth_mcp",
+        "impact": 7,
+        "effort": 5
+      },
+      {
+        "id": "AGENT_SKILLS_INDEX",
+        "value": false,
+        "status": "fail",
+        "evidence": "HTTP 404 /.well-known/agent-skills/index.json",
+        "recommendation": "Publish Agent Skills index (RFC v0.2.0).",
+        "category": "api_auth_mcp",
+        "impact": 7,
+        "effort": 4
+      },
+      {
+        "id": "ARD_MANIFEST",
+        "value": false,
+        "status": "fail",
+        "evidence": "HTTP 404 /.well-known/ai-catalog.json",
+        "recommendation": "Publish an ARD manifest.",
+        "category": "commerce_info",
+        "impact": 6,
+        "effort": 5
+      },
+      {
+        "id": "WEB_BOT_AUTH",
+        "value": false,
+        "status": "fail",
+        "evidence": "HTTP 404 /.well-known/http-message-signatures-directory",
+        "recommendation": "Publish JWKS for Web Bot Auth.",
+        "category": "commerce_info",
+        "impact": 4,
+        "effort": 4
+      },
+      {
+        "id": "UCP_PROFILE",
+        "value": false,
+        "status": "fail",
+        "evidence": "HTTP 404 /.well-known/ucp",
+        "recommendation": "Publish UCP profile (ucp.dev).",
+        "category": "commerce_info",
+        "impact": 5,
+        "effort": 5
+      },
+      {
+        "id": "ACP_DISCOVERY",
+        "value": false,
+        "status": "fail",
+        "evidence": "HTTP 404 /.well-known/acp.json",
+        "recommendation": "Publish ACP discovery (agenticcommerce.dev).",
+        "category": "commerce_info",
+        "impact": 5,
+        "effort": 5
+      },
+      {
+        "id": "OPENAPI_JSON",
+        "value": false,
+        "status": "fail",
+        "evidence": "HTTP 404 /openapi.json",
+        "recommendation": "Publish an OpenAPI specification.",
+        "category": "commerce_info",
+        "impact": 5,
+        "effort": 3
+      }
+    ],
+    "facts": {
+      "robots_txt": {
+        "exists": true,
+        "ai_bots": [],
+        "sitemaps": [
+          "https://executrain.com.mx/sitemap.xml"
+        ]
+      },
+      "markdown_negotiation": {
+        "supported": false
+      },
+      "link_headers": {
+        "present": true
+      },
+      "dns_aid": {
+        "found": false,
+        "dnssec": false
+      }
+    }
+  }
+}
