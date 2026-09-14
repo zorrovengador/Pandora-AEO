@@ -1,2 +1,4 @@
-"""Pandora AEO deterministic audit engine."""
-__version__ = "0.4.0"
+"""Pandora-AEO: deterministic no-dependency AEO audit engine."""
+
+__version__ = "0.5.0"
+ENGINE_VERSION = __version__

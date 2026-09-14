@@ -15,11 +15,14 @@ import re
 import socket
 import urllib.parse
 import urllib.request
+import time
 from datetime import datetime, timezone
 from html.parser import HTMLParser
 from typing import Any
 
-ENGINE_VERSION = "0.4.0"
+from .sitemap_crawl import resolve_crawl_urls, suspicious_vs_median
+
+from . import ENGINE_VERSION  # single source of truth (v0.5.0)
 
 # ── AI bots for robots.txt detection ───────────────────────────────────────
 _AI_BOTS = {
@@ -537,47 +540,69 @@ def audit_url(url: str, timeout: int = 20) -> dict[str, Any]:
     return page_result
 
 
-def audit_site(url: str, timeout: int = 20, max_pages: int = 50) -> dict[str, Any]:
-    """Crawl a site and audit all discovered pages. Returns aggregated report."""
+def audit_site(url: str, timeout: int = 20, max_pages: int = 50, source: str = "both") -> dict[str, Any]:
+    """Crawl a site and audit all pages. source: "sitemap" | "discovery" | "both".
+
+    "both" (default) uses the sitemap as the master URL list and discovery as a
+    complement; URLs found live but absent from the sitemap are reported in
+    agent_readiness facts and drive the SITEMAP_COVERAGE cross-check.
+    """
     measured_at = datetime.now(timezone.utc).isoformat()
+    if source not in ("sitemap", "discovery", "both"):
+        raise ValueError(f"invalid source: {source!r} (use sitemap | discovery | both)")
 
     # Fetch homepage and discover internal links
     _, _, homepage_html = fetch_url(url, timeout)
     page_result = audit_page(url, homepage_html)
     pages = [page_result]
 
-    # Discover internal links
-    from html.parser import HTMLParser as _HP
-    class _LinkParser(_HP):
-        def __init__(self):
-            super().__init__()
-            self.links: set[str] = set()
-        def handle_starttag(self, tag, attrs):
-            if tag == "a":
-                href = dict(attrs).get("href", "")
-                if href and not href.startswith(("#", "mailto:", "tel:", "javascript:", "/cdn-cgi/")):
-                    full = urllib.parse.urljoin(url, href)
-                    parsed = urllib.parse.urlparse(full)
-                    base = urllib.parse.urlparse(url)
-                    if parsed.scheme in ("http", "https") and parsed.netloc == base.netloc:
-                        clean = parsed.scheme + "://" + parsed.netloc + parsed.path
-                        if clean != url and clean != url + "/":
-                            self.links.add(clean)
+    crawl_urls, sitemap_facts = resolve_crawl_urls(url, source, timeout, max_pages, homepage_html)
 
-    lp = _LinkParser()
-    lp.feed(homepage_html)
+    # Two-pass: first collect page word counts for the median used by the
+    # suspicious-HTML heuristic, then audit each page with retry logic.
+    from .sitemap_crawl import _REQUEST_PAUSE_SECONDS, fetch_page_for_crawl
+    session: dict[str, Any] = {"median_words": 0}
+    fetched: dict[str, dict[str, Any]] = {}
+    for link in crawl_urls:
+        fetched[link] = fetch_page_for_crawl(link, timeout, session)
+        time.sleep(_REQUEST_PAUSE_SECONDS)
+    import re as _re
+    def _words(html: str) -> int:
+        t = _re.sub(r"<script.*?</script>|<style.*?</style>", "", html, flags=_re.S | _re.I)
+        return len(_re.findall(r"\w+", _re.sub(r"<[^>]+>", " ", t)))
+    words = sorted(_words(f["html"]) for f in fetched.values() if f["html"])
+    if words:
+        session["median_words"] = words[len(words) // 2]
+    # Re-evaluate suspicion now that the median is known
+    incomplete: list[str] = []
+    for link, f in fetched.items():
+        if f["html"] and not f["error"] and suspicious_vs_median(f["html"], session["median_words"]):
+            incomplete.append(link)
 
-    # Crawl discovered pages
-    for link in sorted(lp.links)[:max_pages - 1]:
-        try:
-            _, _, page_html = fetch_url(link, timeout)
-            p_result = audit_page(link, page_html)
-            pages.append(p_result)
-        except Exception:
+    for link in crawl_urls:
+        f = fetched[link]
+        if f["error"] or not f["html"]:
             continue
+        p_result = audit_page(link, f["html"])
+        p_result["fetch"] = {"status": f["status"], "bytes": f["bytes"], "attempts": f["attempts"],
+                             "incomplete_fetch": f["incomplete_fetch"] or link in incomplete}
+        pages.append(p_result)
 
     # Cross-page checks
     cross_checks = _cross_page_checks(pages)
+
+    # Sitemap health checks (v0.5)
+    crawl_set = set(crawl_urls)
+    stale = sorted(u for u in crawl_urls if u not in {p["url"] for p in pages})
+    if source in ("sitemap", "both") and stale:
+        cross_checks.append(_check("SITEMAP_STALE", len(stale), "fail",
+                                   f"{len(stale)} sitemap URL(s) did not return usable HTML (first: {stale[0]})",
+                                   "Remove stale URLs from the sitemap or fix the pages.", "discoverability", 5, 2))
+    if source == "both" and sitemap_facts["discovery_only_urls"]:
+        n = len(sitemap_facts["discovery_only_urls"])
+        cross_checks.append(_check("SITEMAP_COVERAGE", n, "fail",
+                                   f"{n} crawled URL(s) missing from sitemap (first: {sitemap_facts['discovery_only_urls'][0]})",
+                                   "Add the missing URLs to the sitemap.xml.", "discoverability", 4, 2))
 
     # Aggregate scores
     category_scores: dict[str, float] = {}
@@ -608,7 +633,8 @@ def audit_site(url: str, timeout: int = 20, max_pages: int = 50) -> dict[str, An
         "target": {"url": url},
         "global_score": global_score,
         "category_scores": category_scores,
-        "pages": [{"url": p["url"], "title": p["title"], "word_count": p["word_count"], "score": p["score"]} for p in pages],
+        "pages": [{"url": p["url"], "title": p["title"], "word_count": p["word_count"], "score": p["score"],
+                   **({"fetch": p["fetch"]} if "fetch" in p else {})} for p in pages],
         "findings": findings,
         "findings_count": len(findings),
         "pages_analyzed": len(pages),
@@ -616,4 +642,9 @@ def audit_site(url: str, timeout: int = 20, max_pages: int = 50) -> dict[str, An
             "checks": agent_result["checks"],
             "facts": agent_result["facts"],
         },
+        "crawl": {"source": source, "sitemap_url": sitemap_facts["sitemap_url"],
+                  "sitemap_count": sitemap_facts["sitemap_count"], "sitemap_errors": sitemap_facts["sitemap_errors"],
+                  "discovery_only_count": len(sitemap_facts["discovery_only_urls"]),
+                  "discovery_only_urls": sitemap_facts["discovery_only_urls"][:20],
+                  "incomplete_fetches": sorted({p["url"] for p in pages if p.get("fetch", {}).get("incomplete_fetch")})},
     }

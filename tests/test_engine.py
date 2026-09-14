@@ -10,7 +10,7 @@ from pandora_aeo.engine import (
 
 class EngineTests(unittest.TestCase):
     def test_engine_version(self):
-        self.assertEqual(ENGINE_VERSION, "0.4.0")
+        self.assertEqual(ENGINE_VERSION, "0.5.0")
 
     def test_audit_page_reports_8_categories(self):
         html = """<html lang="es-MX"><head><title>Example page</title>
